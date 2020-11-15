@@ -1,6 +1,6 @@
 FROM arm32v7/debian:latest
 
-RUN apt-get -y update && apt-get -y upgrade
+#RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get install -y wget
 RUN apt-get install -y gnupg2
 
